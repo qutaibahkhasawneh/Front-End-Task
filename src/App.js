@@ -1,5 +1,7 @@
-import Nav from "./layouts/Nav";
+import './assets/css/style.css';
+
 import Footer from "./layouts/Footer";
+import Nav from "./layouts/Nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "./components/Index";
 
@@ -9,11 +11,11 @@ function App() {
       <BrowserRouter>
         <Nav />
 
-        <Routes>
+        {/* <Routes>
         
           <Route path="/" element={<Index />} />
-        </Routes>
-
+        </Routes> */}
+    <Index />
         <Footer />
       </BrowserRouter>
     </>

@@ -29,7 +29,7 @@ function Index() {
              
                 <div className="col-lg-4 col-md-12 col-12">
                     <div className="card" style={{width: '100%'}}>
-                        <img src="assets/img/home-1.jpg" className="card-img-top" alt="..."/>
+                        <img src="./img/home-1.jpg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h3 className="card-title" id="title">Unlimited Entry Superpass to Rainbo</h3>
                             <p className="card-text Rainbow" >Rainbow End<br/><span style={{fontweight: '300' ,color: '#92a2ad'}}>Manuka</span><br/> 
